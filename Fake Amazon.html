@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://127.0.0.1:5500/Esercizio-D3/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Amazon</title>
+    
+<link rel="stylesheet" href="./Fake Amazon_files/style.css"></head>
+
+<!-- logo di Amazon nella barra nera -->
+    <body><div class="header bg-dark">
+        <img id="upper-logo" src="./Fake Amazon_files/logo.png" alt="Logo Amazon">
+    </div>
+
+<!-- barra di navigazione -->
+<div class="navBar">
+    <a class="bianco" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">All</a>
+    <a class="bianco" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">Today's deals</a>
+    <a class="bianco" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">CustomerService</a>
+    <a class="bianco" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">Registry</a>
+    <a class="bianco" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">Gift Cards</a>
+    <a class="bianco" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">Sell</a>
+</div>
+
+
+    <!-- impostazione riga arancione -->
+    <div class="bg-yellow text-center1 py-1">
+            <span>Shop All Holiday Gift Cards</span>
+    </div>
+
+    <!-- impostazione riga verde -->
+    <div class="riga-verde">
+        <h3>Holiday Gift Guides</h3>
+        <h5>Be a go-gifter</h5>
+    </div>
+
+    <div> 
+       
+        <div>
+           <p>Find the perfect gift <a href="http://127.0.0.1:5500/Esercizio-D3/index.html#">Shop now</a></p>
+            <!--  Alternativa inserimento 4 immagini:
+            <div id="immagine1" class="container"></div>
+            <div id="immagine2" class="container"></div>
+            <div id="immagine3" class="container"></div>
+            <div id="immagine4" class="container"></div> --> 
+              <img class="container" src="./Fake Amazon_files/img_1.jpg" alt="Tablet">
+        
+                <img class="container" src="./Fake Amazon_files/img_2.jpg" alt="Vaso">
+    
+                <img class="container" src="./Fake Amazon_files/img_3.jpg" alt="Orologi">
+    
+                <img class="container" src="./Fake Amazon_files/img_4.jpg" alt="Cane e Gatto">
+        </div>
+        <div class="quadro1">
+            <p>Gaming accesories</p>
+            <img class="pic-in" src="./Fake Amazon_files/img_15.jpg" alt="cuffie blu">
+            <p class="descriz">Headsets</p>
+            <img class="pic-in" src="./Fake Amazon_files/img_16.jpg" alt="tastiera">
+            <p class="descriz">Headsets</p>
+            <img class="pic-in" src="./Fake Amazon_files/img_17.jpg" alt="mouse">
+            <p class="descriz">Headsets</p>
+            <img class="pic-in" src="./Fake Amazon_files/img_18.jpg" alt="sedia">
+            <p class="descriz">Headsets</p>
+            
+        </div>
+
+        <div>
+            <img class="container2" src="./Fake Amazon_files/img_9.png" alt="Visore realtà virtuale">
+        </div>
+        <h4>Play the gifting game <a class="green" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">Shop gaming</a></h4>
+        
+        <div>
+            <img class="container2" src="./Fake Amazon_files/img_10.png" alt="Cuffie Marshall">
+        </div>
+        <h4>The sound of cheer <a class="green" href="http://127.0.0.1:5500/Esercizio-D3/index.html#">Shop Audio &amp; Accessories</a></h4>
+        
+        <div class="bg-dark text-center2 py-1">    
+            <span>Back to top</span>
+        </div>
+    </div>
+    <footer class="footer "><img id="lower-logo" src="./Fake Amazon_files/logo.png" alt="logo Amazon"></footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
