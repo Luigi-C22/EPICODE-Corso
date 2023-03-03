@@ -1,0 +1,99 @@
+/*allineo al centro il logo*/
+body{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+/*imposto la dimensione del logo */
+img{
+    width: 150px;
+    text-align: center;
+}
+
+/*imposto le dimensioni del contenitore*/
+div{
+    width: 650px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*imposto id per il colore della linea sotto il logo*/
+#orange-line{
+   margin: 0; 
+    border-color: orange;
+}
+
+/*imposto la classe per larghezza in cui devono entrare h1 e h3*/
+.titoli{
+    width: 650px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+h3{
+    text-align: left;
+    margin-bottom: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    
+}
+
+h4{
+    padding: 8px;
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(249, 244, 236);
+    color: green ;
+}
+
+h5{
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: auto;
+}
+
+h6{
+    text-align: left;
+    color: purple;
+    margin-bottom: auto;
+}
+
+/*imposto la classe per le proprietà della foto principale*/
+.focaccia{
+    text-align: center;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px grey;
+}
+
+span{
+    color: green;
+}
+p{
+    text-align: center;
+}
+
+/*imposto id per il colore delle linee in basso*/
+.blue-line{
+    border-color: aqua;
+}
+
+/*imposto id per il paragrafo in basso*/
+#align{
+    margin-left: 40px;
+    text-align: justify;
+}
+
+/*impostazioni per le liste*/
+ul{
+    text-align: left;
+}
+ol{
+    text-align: left;
+}
