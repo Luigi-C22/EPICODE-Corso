@@ -77,7 +77,6 @@ body{
 /* imposto gli attributi del riquadro per le 4 foto piccole*/
 .quadro1{
    text-align: left;
-   border: solid 1px red;
    padding-left: 10px;
    padding-right: 10px;
    width: 210px;
@@ -156,8 +155,6 @@ a{
    margin-left: 2%;
    display: flex;
    justify-content: space-between;
-   border: solid 1px black;
-
 }
 
 .bianco{
